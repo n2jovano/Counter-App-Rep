@@ -1,0 +1,50 @@
+.wallpaper {
+    background-color: black;
+}
+
+.score-container {
+    justify-content:space-around;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;;
+    width: 400px;
+    background-color: rgb(73, 73, 255);
+    color: white;
+    border: 4px pink solid;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.score-title {
+    margin: 5px 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.center-block {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background-color: #000000;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 200%;
+}
+
+.button-styles {
+    color: white;
+    background-color: rgb(73, 73, 255);
+    border: black solid 2px;
+    margin: 10px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.new-game {
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}

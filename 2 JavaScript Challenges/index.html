@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="wallpaper">
+    <div class="score-container">
+        <div>
+            <h2 class="score-title">HOME</h2>
+            <div id="home-score-result" class="center-block">
+                0
+            </div>
+            <div>
+                <button id="home-plus1-el" class="button-styles" onclick="homePlusOne()">+1</button>
+                <button id="home-plus2-el" class="button-styles" onclick="homePlusTwo()">+2</button>
+                <button id="home-plus3-el" class="button-styles" onclick="homePlusThree()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="score-title">GUEST</h2>
+            <div id="guest-score-result" class="center-block">
+                0
+            </div>
+            <div>
+                <button id="guest-plus1-el" class="button-styles" onclick="guestPlusOne()">+1</button>
+                <button id="guest-plus2-el" class="button-styles" onclick="guestPlusTwo()">+2</button>
+                <button id="guest-plus3-el" class="button-styles" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class=" new-game">
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="./js/main.js"></script>    
+</body>
+</html>
