@@ -1,50 +1,51 @@
-.wallpaper {
-    background-color: black;
+.text-red {
+    color: blue;
 }
 
-.score-container {
-    justify-content:space-around;
-    display: flex;
-    margin: auto;
-    margin-top: 30px;
-    padding: 15px;;
+.counter-border {
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
-    background-color: rgb(73, 73, 255);
-    color: white;
-    border: 4px pink solid;
-    border-radius: 8px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:  3px;
+    border: solid black 2px;
+
 }
 
-.score-title {
-    margin: 5px 5px;
-    padding: 5px 5px 5px 5px;
+.center-box {
+    margin: 10px 10px 10px 10px;
+    background-color: grey;
+    padding: 10px 10px 10px 10px;
+    border: solid black 2px;
+    border-radius:  3px;
+}
+
+.my-table {
+    justify-content: center;
+    display: flex;
+}
+
+.margin-top-50 {
+    margin-top:50px;
+}
+
+.my-center-text {
     text-align: center;
 }
 
-.center-block {
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    background-color: #000000;
-    height: 100px;
-    line-height: 100px;
+.style-btn {
+    border: none;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: blue;
+} 
+
+.list-el {
     text-align: center;
-    border-radius: 3px;
-    font-size: 200%;
-}
-
-.button-styles {
-    color: white;
-    background-color: rgb(73, 73, 255);
-    border: black solid 2px;
-    margin: 10px 5px 5px 5px;
-    border-radius: 3px;
-}
-
-.new-game {
-    color: white;
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
 }
