@@ -2,32 +2,39 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- <link rel="stylesheet" href="../1 Counter App/css/styles.css"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball Counter App</title>
+    <title>Document</title>
 </head>
-<body>
-    <div class="counter-border my-center-text">
-        <div class="center-box">
-            <h1 class="text-red ">People Entered :</h1>
-            <h2 id="count-el">0</h2>
-            <button id="increment-btn" class="style-btn" onclick="increment()">Increment</button>
-            <button id="save-btn" class="style-btn"  onclick="mySaveFunction()">Save</button>
-            <h2 id="save-el">0</h2>
+<body class="wallpaper">
+    <div class="score-container">
+        <div>
+            <h2 class="score-title">HOME</h2>
+            <div id="home-score-result" class="center-block">
+                0
+            </div>
+            <div>
+                <button id="home-plus1-el" class="button-styles" onclick="homePlusOne()">+1</button>
+                <button id="home-plus2-el" class="button-styles" onclick="homePlusTwo()">+2</button>
+                <button id="home-plus3-el" class="button-styles" onclick="homePlusThree()">+3</button>
+            </div>
         </div>
-    </div>
-    <!-- <button id="increment-btn2" class="style-btn" onclick="myCounter()">Increment</button> -->
-    <h2 class="list-el" id="count-el2">69</h2>
-    <h2>Previous Entries :</h2><p>Previous entries</p>
-    <p id="welcome-el"></p>
-
-
-    <div>
-        <div>-------------------------------------------</div>
+        <div>
+            <h2 class="score-title">GUEST</h2>
+            <div id="guest-score-result" class="center-block">
+                0
+            </div>
+            <div>
+                <button id="guest-plus1-el" class="button-styles" onclick="guestPlusOne()">+1</button>
+                <button id="guest-plus2-el" class="button-styles" onclick="guestPlusTwo()">+2</button>
+                <button id="guest-plus3-el" class="button-styles" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
         
     </div>
-
-    <script src="./js/main.js"></script>
+    <div class=" new-game">
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="./js/main.js"></script>    
 </body>
 </html>
